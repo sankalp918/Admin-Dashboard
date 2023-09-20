@@ -1,6 +1,7 @@
-import {Box, IconButton, InputBase, useTheme} from "@mui/material";
+import {Box, IconButton, useTheme} from "@mui/material";
 import {useContext} from "react";
 import {ColorModeContext, tokens} from "../../theme";
+import InputBase from "@mui/material/InputBase";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
@@ -15,10 +16,10 @@ const Appbar = () => {
 
     return (
         <Box display="flex" justifyContent="space-between" p={2}>
-            {/* Search Bar */}
+            {/* SEARCH BAR */}
             <Box
                 display="flex"
-                backgroundColor={colors.primary[400]} // Corrected the typo in 'backgroundColor'
+                backgroundColor={colors.primary[400]}
                 borderRadius="3px"
             >
                 <InputBase sx={{ml: 2, flex: 1}} placeholder="Search"/>
@@ -27,7 +28,7 @@ const Appbar = () => {
                 </IconButton>
             </Box>
 
-            {/* Icons */}
+            {/* ICONS */}
             <Box display="flex">
                 <IconButton onClick={colorMode.toggleColorMode}>
                     {theme.palette.mode === "dark" ? (
