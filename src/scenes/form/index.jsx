@@ -18,7 +18,7 @@ const Form = () => {
             <Formik
                 onSubmit={handleFormSubmit}
                 initialValues={initialValues}
-                validationSchema={checkoutSchema}
+                validationSchema={userSchema}
             >
                 {({
                       values,
@@ -129,18 +129,15 @@ const Form = () => {
 };
 
 const phoneRegExp =
-    /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
+    /^(?:\+\d{1,4}\s*)?\d{10}$/;
 
-const checkoutSchema = yup.object().shape({
-    firstName: yup.string().required("required"),
-    lastName: yup.string().required("required"),
+const userSchema = yup.object().shape({
+    firstName: yup.string().required("required").minLength(3).maxLength(20),
+    lastName: yup.string().required("required").minLength(3).maxLength(20),
     email: yup.string().email("invalid email").required("required"),
-    contact: yup
-        .string()
-        .matches(phoneRegExp, "Phone number is not valid")
-        .required("required"),
-    address1: yup.string().required("required"),
-    address2: yup.string().required("required"),
+    contact: yup.string().matches(phoneRegExp, "Phone number is not valid").required("required"),
+    address1: yup.string().required("required").minLength(10).maxLength(50),
+    address2: yup.string().required("required").minLength(10).maxLength(50)
 });
 const initialValues = {
     firstName: "",
