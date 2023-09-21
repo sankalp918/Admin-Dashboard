@@ -1,3 +1,5 @@
+// noinspection SpellCheckingInspection
+
 import {tokens} from "../theme";
 
 export const mockDataTeam = [

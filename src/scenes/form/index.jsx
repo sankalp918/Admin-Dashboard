@@ -11,6 +11,7 @@ const Form = () => {
         console.log(values);
     };
 
+    // noinspection JSValidateTypes
     return (
         <Box m="20px">
             <Header title="CREATE USER" subtitle="Create a New User Profile"/>

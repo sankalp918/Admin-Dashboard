@@ -7,6 +7,7 @@ import {mockGeographyData as data} from "../data/mockData";
 const GeographyChart = ({isDashboard = false}) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
+    // noinspection JSValidateTypes
     return (
         <ResponsiveChoropleth
             data={data}

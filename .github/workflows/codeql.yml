@@ -1,3 +1,4 @@
+#file: noinspection SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,GrazieInspection
 # For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
@@ -87,7 +88,7 @@ jobs:
     bot-name: # optional, default is cloudpossebot
     # Email address associated with the GitHub user for writing new commits
     bot-email: # optional
-    # Name of formatting task to execute. (Options include: readme, github, terraform, and context.)
+    # Name of formatting task to execute. (Options include: readme, GitHub, terraform, and context.)
     format-task: 
     # GitHub Token for use in `github_format.sh` and PR creation steps. This token must be granted `workflows` permissions.
     workflow-token: 

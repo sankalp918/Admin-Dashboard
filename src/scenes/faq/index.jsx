@@ -21,8 +21,8 @@ const FAQ = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Lorem ipsum dolor sit amet, consecrate disciplining elite. Suspense
+                        dalesman lacks ex, sit amet bandit leo lobotomist get.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -34,8 +34,8 @@ const FAQ = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Lorem ipsum dolor sit amet, consecrate disciplining elite. Suspense
+                        dalesman lacks ex, sit amet bandit leo lobotomist get.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -47,8 +47,8 @@ const FAQ = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Lorem ipsum dolor sit amet, consecrate disciplining elite. Suspense
+                        dalesman lacks ex, sit amet bandit leo lobotomist get.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -60,8 +60,8 @@ const FAQ = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Lorem ipsum dolor sit amet, consecrate disciplining elite. Suspense
+                        dalesman lacks ex, sit amet bandit leo lobotomist get.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -73,8 +73,8 @@ const FAQ = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Lorem ipsum dolor sit amet, consecrate disciplining elite. Suspense
+                        dalesman lacks ex, sit amet bandit leo lobotomist get.
                     </Typography>
                 </AccordionDetails>
             </Accordion>

@@ -39,6 +39,7 @@ const Calendar = () => {
         }
     };
 
+    // noinspection JSValidateTypes
     return (
         <Box m="15px">
             <Header title="Calendar" subtitle="Full Calendar Interactive Page"/>

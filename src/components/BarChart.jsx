@@ -7,6 +7,7 @@ const BarChart = ({isDashboard = false}) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
 
+    // noinspection JSValidateTypes
     return (
         <ResponsiveBar
             data={data}
