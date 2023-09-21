@@ -63,12 +63,10 @@ const Navbar = () => {
         >
             <ProSidebar collapsed={isCollapsed}>
                 <Menu iconShape="square">
-                    {/* LOGO AND MENU ICON */}
                     <MenuItem
                         onClick={() => setIsCollapsed(!isCollapsed)}
                         icon={isCollapsed ? <MenuOutlinedIcon/> : undefined}
                         style={{
-                            margin: "10px 0 20px 0",
                             color: colors.grey[100],
                         }}
                     >
@@ -80,7 +78,7 @@ const Navbar = () => {
                                 ml="15px"
                             >
                                 <Typography variant="h3" color={colors.grey[100]}>
-                                    ADMINIS
+                                    Administration
                                 </Typography>
                                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                                     <MenuOutlinedIcon/>
@@ -90,7 +88,7 @@ const Navbar = () => {
                     </MenuItem>
 
                     {!isCollapsed && (
-                        <Box mb="25px">
+                        <Box mb="15px">
                             <Box display="flex" justifyContent="center" alignItems="center">
                                 <img
                                     alt="profile-user"
@@ -107,10 +105,10 @@ const Navbar = () => {
                                     fontWeight="bold"
                                     sx={{m: "10px 0 0 0"}}
                                 >
-                                    Ed Roh
+                                    Sankalp Patel
                                 </Typography>
                                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                                    VP Fancy Admin
+                                    Admin
                                 </Typography>
                             </Box>
                         </Box>

@@ -40,11 +40,10 @@ const Calendar = () => {
     };
 
     return (
-        <Box m="20px">
+        <Box m="15px">
             <Header title="Calendar" subtitle="Full Calendar Interactive Page"/>
 
             <Box display="flex" justifyContent="space-between">
-                {/* CALENDAR SIDEBAR */}
                 <Box
                     flex="1 1 20%"
                     backgroundColor={colors.primary[400]}
@@ -79,7 +78,6 @@ const Calendar = () => {
                     </List>
                 </Box>
 
-                {/* CALENDAR */}
                 <Box flex="1 1 100%" ml="15px">
                     <FullCalendar
                         height="75vh"
